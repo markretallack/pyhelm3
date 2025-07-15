@@ -210,7 +210,6 @@ class ChartVersion(ModelWithCommand):
    
     app_version: NonEmptyString = Field(
         None,
-        alias = "appVersion",
         description = (
             "The version of the app that this chart deploys. "
         )
