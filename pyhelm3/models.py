@@ -212,7 +212,7 @@ class ChartVersion(ModelWithCommand):
         description = "A single-sentence description of the chart."
     )
    
-    app_version: NonEmptyString = Field(
+    app_version: str = Field(
         None,
         description = (
             "The version of the app that this chart deploys. "
